@@ -13,7 +13,7 @@ library(tidyverse)
 
 
 #### Test data ####
-data <- read_csv("~/Desktop/STA304_Week3/HaoweiFan/data/raw_data/simulated.csv")
+data <- read_csv("data/raw_data/simulated.csv")
 
 # Test if any value in number_of_marriage is greater than 99999
 any(data$number_of_marriage > 99999)

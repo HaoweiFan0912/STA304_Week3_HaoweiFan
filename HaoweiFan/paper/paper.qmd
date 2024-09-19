@@ -1,12 +1,12 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "HaoweiFan's Paper"
+subtitle: "this is subtitle"
 author: 
-  - Rohan Alexander
+  - Haowei Fan
 thanks: "Code and data are available at: LINK."
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "This project is for marriage analysis in Toronto from 2015 to 2020."
 format: pdf
 number-sections: true
 bibliography: references.bib

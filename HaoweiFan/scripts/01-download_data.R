@@ -22,5 +22,5 @@ data <- filter(datastore_resources, row_number()==1) %>%
   get_resource()
 
 
-write_csv(data, "~/Desktop/STA304_Week3/HaoweiFan/data/raw_data/raw_data.csv") 
+write_csv(data, "data/raw_data/raw_data.csv") 
 

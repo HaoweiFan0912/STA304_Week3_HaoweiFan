@@ -13,7 +13,7 @@ library(tidyverse)
 library(rstanarm)
 
 #### Read data ####
-analysis_data <- read_csv("~/Desktop/STA304_Week3/HaoweiFan/data/analysis_data/analysis_data.csv")
+analysis_data <- read_csv("data/analysis_data/analysis_data.csv")
 
 ### Model data ####
 first_model <-

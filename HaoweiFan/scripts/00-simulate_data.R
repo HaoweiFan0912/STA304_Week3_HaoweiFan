@@ -13,7 +13,7 @@ library(tidyverse)
 
 
 #### Simulate data ####
-set.seed(304)
+set.seed(902)
 
 start_date <- as.Date("2015-01-01")
 end_date <- as.Date("2020-12-31")
@@ -30,10 +30,10 @@ data <-
       ),
       origin = "1970-01-01"
     ),
-    number_of_marriage = rpois(n = number_of_dates, lambda = 15)
+    number_of_marriage = rpois(n = number_of_dates, lambda = 10)
   )
 
 
 #Write_csv
-write_csv(data, file = "~/Desktop/STA304_Week3/HaoweiFan/data/raw_data/simulated.csv")
+write_csv(data, file = "data/raw_data/simulated.csv")
 
